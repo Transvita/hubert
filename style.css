@@ -1,0 +1,115 @@
+/* General Styles */
+body {
+  background-color: #f2f2f2;
+  font-family: Comic Sans MS, cursive, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2 {
+  text-align: center;
+  color: #ff00ff;
+  text-shadow: 2px 2px 4px #000;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  }
+nav li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+nav a {
+  color: #ff00ff;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+/* Header Styles */
+header {
+  background-color: #000;
+  padding: 20px;
+}
+
+/* Main Styles */
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #ff00ff;
+  color: #000;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Slideshow Styles */
+.slideshow {
+  position: relative;
+  max-width: 800px;
+  margin: auto;
+  border: 5px solid #00ffff;
+  padding: 10px;
+}
+
+.slideshow img {
+  width: 100%;
+  height: auto;
+  border: 2px dashed #00ffff;
+}
+
+.slideshow .prev, .slideshow .next {
+  position: absolute;
+  top: 50%;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 10px;
+  color: #000;
+  background-color: #ff00ff;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.slideshow .prev:hover, .slideshow .next:hover {
+  background-color: #00ffff;
+}
+
+.slideshow .prev {
+  left: 0;
+}
+
+.slideshow .next {
+  right: 0;
+}
+
+.slideshow .dots {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.slideshow .dot {
+  display: inline-block;
+  margin: 0 5px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #ff00ff;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.slideshow .dot.active {
+  background-color: #00ffff;
+}
